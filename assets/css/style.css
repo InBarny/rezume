@@ -2245,28 +2245,33 @@ body {
 }
 
 .project-image {
-  width: 100%;
-  max-width: 100%;
-  border-radius: 12px;
-  margin-top: 10px;
-  box-shadow: var(--shadow-2);
-  display: block;
+    width: 100%;
+    max-width: 100%;
+    max-height: 350px;
+    object-fit: contain;
+    background: var(--eerie-black-1);
+    border-radius: 12px;
+    margin-top: 10px;
+    box-shadow: var(--shadow-2);
+    display: block;
 }
 
 .project-gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .project-gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: var(--shadow-2);
-  display: block;
-  object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+    background: var(--eerie-black-1);
+    border-radius: 12px;
+    box-shadow: var(--shadow-2);
+    display: block;
 }
 
 .timeline-list {
